@@ -28,10 +28,10 @@ public String problem2() {
 }
 
 public boolean isPrime(double dNum) {   
-    for (int i = 2; i <= (int)(Math.sqrt(dNum)); i++) {
-      if (dNum%i == 0) return false;
-    }
-    return true;
+  for (int i = 2; i <= (int)(Math.sqrt(dNum)); i++) {
+    if (dNum%i == 0) return false;
+  }
+  return true;
 }
 
 public double getDigits(int index) {
